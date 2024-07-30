@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-  s := "110110111"
-  result := findLength(s)
+	s := "110110111"
+	result := findLength(s)
 
-  fmt.Printf("result: %d", result)
+	fmt.Printf("result: %d", result)
 }
 
 func findLength(s string) int {
